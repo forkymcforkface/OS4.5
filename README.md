@@ -27,7 +27,7 @@ OS4.5 aims to improve the base OS4 experience through specific kernel modificati
 * **Safety:** Added confirmation dialogs for removing Favorites or Recents.
 * **Kodi:** UI language now syncs with the OS4 system language.
 
-### In Development B20 (Next Release)
+### Added to B20 (Next Release)
 
 **Audio Subsystem**
 * **Bug Fixes:** Resolved audio stuttering caused by background buffers.
