@@ -35,7 +35,7 @@ OS4.5 aims to improve the base OS4 experience through specific kernel modificati
 * **Hotplug:** Support for USB audio DAC detection without reboot.
 
 **Performance**
-* **I/O Throughput:** Optimized RetroArch initialization and "Quit to OS4.5" sequences.
+* **I/O Throughput:** Optimized RetroArch initialization and "Quit to OS4.5" sequences. Games now start and stop almost instantly.
 * **Resource Management:** Optimized background CPU and memory usage for the main UI.
 
 **System Configuration**
