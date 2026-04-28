@@ -1,12 +1,10 @@
-# OS4.5: Unofficial Pi5 Edition
+# OS4.5: OS4 any Pi Edition
 
-This repository contains the unofficial Pi5 version for OS4. The project focuses on kernel tweaks, performance optimization, and expanding hardware/emulator support. 
-
-**Disclaimer:** This is an unofficial project and is not affiliated with the original OS4 developers.
+This OS4 project focuses on kernel tweaks, performance optimization, and expanding hardware/emulator support. 
 
 ## Project Overview
 
-OS4.5 aims to improve the base OS4 experience through specific kernel modifications and userspace enhancements. Key goals include reducing audio latency, improving boot speeds, and adding support for additional consoles and arcade boards.
+OS4.5 aims to improve the base OS4 experience through specific kernel modifications and userspace enhancements. Key goals include reducing audio latency, improving boot speeds, and support any libretro core.
 
 ## Feature Status
 
@@ -29,6 +27,9 @@ OS4.5 aims to improve the base OS4 experience through specific kernel modificati
 
 ### Added to B20 (Next Release)
 
+**Hardware & Display**
+HDMI Support for HDMI DACs and LCD
+
 **Audio Subsystem**
 * **Bug Fixes:** Resolved audio stuttering caused by background buffers.
 * **Latency:** Adjustments for reduced audio latency.
@@ -39,7 +40,7 @@ OS4.5 aims to improve the base OS4 experience through specific kernel modificati
 * **Resource Management:** Optimized background CPU and memory usage for the main UI.
 
 **System Configuration**
-* **Core Management:** Added ability to add or change libretro cores.
+* **Core Management:** Added ability to add or change libretro cores by simply plaxing a core and info file into the cores folder
 * **Input:** Integrated `sdlcontrollerdb` for automatic controller mapping.
 * **Privacy:** Analytics capture is now toggleable in system settings (Default: Off).
 
@@ -47,7 +48,7 @@ OS4.5 aims to improve the base OS4 experience through specific kernel modificati
 * Nintendo DS
 * Sega Saturn
 * CD-i
-
+* many more
 
 ### Roadmap & Backlog
 
